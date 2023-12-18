@@ -1,0 +1,15 @@
+//argument passed,no return type
+#include <stdio.h>
+int main() 
+{
+    int u;
+    printf("enter the side : ");
+    scanf("%d",&u);
+    area(u);
+}
+int area(int u)
+{
+    int area;
+    area=u*u;
+    printf("area of square is %d",area);
+}
