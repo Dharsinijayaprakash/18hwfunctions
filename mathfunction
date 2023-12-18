@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int u,i;
+    printf("enter base and exponent : ");
+    scanf("%d%d",&u,&i);
+    int t=pow(u,i);
+    printf("power of u is %d",t);
+}
