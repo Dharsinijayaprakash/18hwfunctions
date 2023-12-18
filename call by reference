@@ -1,0 +1,17 @@
+//argument passed,no return
+//call by reference
+#include <stdio.h>
+void main() 
+{
+    int u;
+    printf("enter a number : ");
+    scanf("%d",&u);
+    printf("given value is %d\n",u);
+    dec(&u);//actual parameter
+    printf("after decrementing is %d",u);
+}
+void dec(int *u)//formal parameter
+{
+    *u=*u-1;
+    printf("decremented value is %d\n",*u);
+}
